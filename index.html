@@ -5,88 +5,118 @@
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Biodata Siswa Kelas X RPL</title>
+  <title>Data Siswa Kelas X RPL</title>
   
   <!-- HTML -->
   
 
   <!-- Custom Styles -->
   <link rel="stylesheet" href="style.css">
+  <style type="text/css" media="all">
+    body {
+    background: #FCBBFF;
+  }
+  .container{
+    width: 80%;
+    margin: auto;
+    background: #FFFFFF;
+    padding:20px;
+    border-radius:10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+  }
+  h2 {
+    text-align: center;
+  }
+  label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  input,select, button{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  button {
+    background: dodgerblue;
+    color: white;
+    font-size: 15px;
+    border: none;
+  }
+  
+  </style>
 </head>
 
 <body>
- <div class="header">
-   <h1>Biodata Siswa Kelas X RPL</h1>
- </div>
- 
- <div class="container">
- <div class="sidebar">
-   <ul>
-  <li><a href="formsiswa.html">Form Siswa</a></li>
-   <li><a href="datasiswa1.html">Data Siswa 1</a></li>
-   <li><a href="datasiswa2.html">Data siswa 2</a></li>
-   <li><a href="datasiswa3.html">Data siswa 3</a></l>
-   <li><a href="datasiswa4.html">Data siswa 4</a></li>
-   <li><a href="datasiswa5.html">Data siswa 5</a></li>
-   <li><a href="datasiswa6.html">data siswa 6</a></li>
-   <li><a href="datasiswa7.html">data siswa 7</a></li>
-   <li><a href="datasiswa8.html">data siswa 8</a></li>
-   </ul>
-   </div>
-   <body>
-     <center>
-        <h1>Form Biodata
-        </h1>
-        <form action="" method="get" accept-charset="utf-8">
-          
-        </form>
-        
-        
-        
-        
-        Nama Siswa
-        <input type="text" name="nama" placeholder="username">
-        Jenis Kelamin
-        <select id="kota" name="kota">
-          <option value="X(10)RPL">Laki-Laki</option>
-          <option value="XI(11)RPL">Perempuan</option>
-          
-    <td><label>Tanggal Lahir</label><input type="date" id="tanggal  lahir"></td>
-          
+<div class="header">
+  <h1>Biodata Siswa Kelas X RPL</h1>
+</div>
 
+<div class="container">
+  <div class="sidebar">
+    <a href="index.html">Form Biodata</a>
+    <a href="datasiswa1.html">data siswa 1</a>
+    <a href="datasiswa2.html">data siswa 2</a>
+    <a href="data datasiswa3.html">data siswa 3</a>
+    <a href="datasiswa4.html">data siswa 4</a>
+    <a href="datasiswa5.html">data siswa 5</a>
+    <a href="datasiswa6.html">data siswa 6</a>
+    <a href="datasiswa7.html">data siswa 7</a>
+    <a href="data datasiswa8.html">data siswa 8</a>
+  </div>
+  
+  <div class="content">
+    <div class="kotak">
+      <h1>Form Biodata</h1>
+      
+      <table border="0">
+        <tr>
 
- Tempat Lahir
-        <input type="text" name="nama" placeholder="Tempat Lahir">
-            </select>
-             Agama
-        <input type="text" name="nama" placeholder="Agama">
-            </select>
-            Hobi
-            <input type="text" name="nama" placeholder="Hobi">
-            </select>
-            Cita-Cita
-            <input type="text" name="nama" placeholder="Cita-Cita">
-           Nomer Telepon
-<input type="text" name="nama" placeholder="No Telepon">
-            </select>
-       ALAMAT
-    <textarea rows="4" placeholder="Alamat"></textarea>
-            
-            <center>
-              <button type:"submit">
-                Confirm</button>
-            </center>
-            
+        </tr>
+              <label for="">Nama Siswa:</label>
+      <input type="text" name="nama" id="">
+      
+      
+      <label for="">Jenis Kelamin:</label>
+      <select name="Jenis Kelamin" id"">
+        <option value="">Laki-laki</option></option>
+        <option value="">Perempuan
+      
+      <tr>
+        <td>Tanggal lahir</td>
+        <td><input type="date" id="tangg" placeholder="tanggal lahir"</td>
+      </tr>
+      <input type="date" name="lahir" id="">
+            <label for="">Tempat lahir </label>
+      <input type="Tempat" name="lahir" id="">
+      
+      <label for="">Agama</label>
+      <select name="Agama" id="">
+        <option value="">islam</option>
+        <option value="">katholik</option>
+        <option value="">protestan</option>
+        <option value="">Budha</option><option value="">Hindu</option>
+        <option value="">Konghuchu</option>
+      </select>
+         <label for="">Hobi</label>
+   <input type="Hobi" name="Hobi" id="">
+   <label for="">Cita-cita </label>
+   <input type="Cita" name="Cita" id="">
+         <label for="">Nomor Telepon</label>
+   <input type="Nomor" name="Telepon" id="">
+   <label for="">Alamat </label>
+   <input type="Alamat" name="Alamat" id="">
+      <button type="submit">submit</button>
+      </form>
+      </table>
     </div>
   </div>
-   </body>
-  </div>
- </div>
+</div>
 
- <div class="footer">
-   <p>&copy; 2025 SMK RPL TAHUN 2025/2026</p>
- </div>
-  
-
+<div class="footer">
+  <p>&copy;2025 SMK RPL - Tahun Ajaran 2025/2026</p>
+</div>
 </body>
 </html>
