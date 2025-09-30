@@ -1,0 +1,143 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header,
+.footer {
+  background: #a78bfa;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.container {
+  display: flex;
+  flex: 1; /*mengisi ruang antara header dan footer */
+  min-height: 0; /* biar terisi natural */
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.sidebar li {
+  margin: 12px 0;
+}
+.sidebar a {
+  text-decoration: none;
+  color: #374151;
+}
+
+.sidebar {
+  background: #fef3c7;
+  padding: 20px;
+  flex-shrink: 0; /*biar tidak mengecil */
+}
+
+.content {
+  flex: 1;/* mengisi sisa ruang */
+  background: white;
+  padding: 20px;
+  border-left: 2px solid grey;
+  overflow-y: auto;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    flex-direction: column; /* sidebar jadi pindah ke atas*/
+  }
+  
+  .sidebar ul {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+  }
+}
+h1 {
+    text-align: center;
+    color: #13C8DA;
+  }
+  table {
+      width: 90%;
+      margin: auto;
+      border-collapse: collapse;
+      background: #fff;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    th, td {
+      padding: 13px 15px;
+      text-align: center;
+      border: 1px solid #ddd;
+    }
+    th {
+      background-color: #3498db;
+      color: white;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+.kotak {
+    background: #fff;
+    padding: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    border: 1px solid #E8E4E4;
+    border-radius:10px 10px 10px 10px
+}
+.sidebar a {
+    background: #E4EEF7;
+    padding: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 1px solid #C7AC5A;
+    display: block;
+    text-decoration: none;
+    color:  black;
+    border-radius:10px 10px 10px 10px
+}
+.content {
+  flex: 1;
+  /*untuk mengisi sisa ruang*/
+  background: lightyellow;
+  padding: 20px;
+  border-left: 2px solid grey;
+  overflow-y: auto;
+  
+}
+container {
+      width: 300px;
+      margin: auto;
+      background: #FFF5F5;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgb(0, 0, 0, 0, 1);
+    }
+    
+    label {
+      display: block;
+      margin: 10px 0 5px;
+    }
+    
+    input,
+    select,
+    button {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 15px;
+      border: 1px solid #bbb;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+    
+    button {
+      background: #5969FE;
+      color: whitesmoke;
+      font-size: 16px;
+      border: none;
+      margin-bottom: 100px;
+      
+    }
